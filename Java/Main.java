@@ -14,7 +14,7 @@ class Main {
         car.passenger = 4;
 
         car.printDataCar(); /* Accedo al dato asignado al atributo licencia con el método printDataCar creado en la clase Car.java */
-        /* De esta forma estamos accediendo a los métodos y a los atributos de una clase */
+        /* De esta forma con objetos estamos accediendo a los métodos y a los atributos de una clase */
 
         /* ---------------------------  */
 
