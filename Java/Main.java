@@ -13,14 +13,17 @@ class Main {
         car.driver = "Andrés Herrera";
         car.passenger = 4;
 
-        System.out.println("Car Licence: " + car.license); /* Accedo al dato asignado al atributo licencia con la misma sintaxis. */
+        car.printDataCar(); /* Accedo al dato asignado al atributo licencia con el método printDataCar creado en la clase Car.java */
+        /* De esta forma estamos accediendo a los métodos y a los atributos de una clase */
+
         /* ---------------------------  */
+
         /* Dar de alta otro objeto: */
         Car car2 = new Car();
         car2.license = "AMW123";
         car2.driver = "Andrea H.";
         car2.passenger = 2;
-        System.out.println("Car Licence: " + car2.license);
+        car2.printDataCar();
 
     }
 
