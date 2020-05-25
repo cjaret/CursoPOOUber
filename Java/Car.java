@@ -20,6 +20,6 @@ class Car {
 
     void printDataCar(){
         System.out.println("Licence: " + license);
-        System.out.println("Driver: " + driver);
+        System.out.println("Name Driver: " + driver.name); /* Por ser driver un atributo derivado de Account */
     }
 }
