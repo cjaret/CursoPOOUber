@@ -1,15 +1,17 @@
-function Car(/* Aquí no es necesario colocar el tipo de dato */ license, driver /* <- Esto automáticamente lo toma como si fuera su método constructor y pasa los atributos de abajo como parámetros */){
-    this.id;
-    this.license = license; /* Aquí ya intancía directamente los datos */
-    this.driver = driver;
-    this.passenger;
-}
+class Car {
 
-/* Método para imprimir: */
+    /* Si quisiéramos declarar un método, en esta nueva sintaxis dejaremos de utilizar la palabra clave function. */
 
-Car.prototype.printDataCar = function(){
-    console.log(this.driver)
-    console.log(this.driver.name)
-    console.log(this.driver.document)
+    constructor(license, driver){
+        this.id;
+        this.license = license;
+        this.driver = driver;
+        this.passenger;
+    }
 
+    printDataCar(){
+        console.log(this.driver)
+        console.log(this.driver.name)
+        console.log(this.driver.document)
+    }
 }
