@@ -10,6 +10,10 @@ class Main {
         car2.passenger = 2;
         car2.printDataCar(); */
 
+        UberVan UberVan = new UberVan("WRT245", new Account("Carlos", "CURP"));
+        UberVan.setPassenger(6);
+        UberVan.printDataCar();
+
     }
 
 }

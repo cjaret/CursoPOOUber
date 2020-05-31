@@ -10,4 +10,20 @@ class UberX extends Car{
         this.model = model;
 
     }
+
+    @Override
+    public void setPassenger(Integer passenger) {
+        if (passenger == 4){
+            super.setPassenger(passenger);
+        } else {
+            System.out.println("UberVan needs 4 passengers assigned");
+        }
+    }
+
+    @Override /* Más polimorfismo */
+    void printDataCar() {
+        super.printDataCar();
+        System.out.println("Modelo: " + model);
+        System.out.println("Marca: " + brand);
+    }
 }
