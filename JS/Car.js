@@ -1,7 +1,5 @@
 class Car {
 
-    /* Si quisiéramos declarar un método, en esta nueva sintaxis dejaremos de utilizar la palabra clave function. */
-
     constructor(license, driver){
         this.id;
         this.license = license;

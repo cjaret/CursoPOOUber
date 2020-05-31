@@ -6,4 +6,12 @@ class Account {
         this.email;
         this.password;
     }
+
+    printDataUser(){
+        console.log(this.id)
+        console.log(this.name)
+        console.log(this.document)
+        console.log(this.email)
+        console.log(this.password)
+    }
 }
